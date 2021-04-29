@@ -1,0 +1,34 @@
+PODS:
+  - facebook_sdk_flutter (0.0.1):
+    - FBSDKCoreKit (~> 8.0.0)
+    - Flutter
+  - FBSDKCoreKit (8.0.0):
+    - FBSDKCoreKit/Basics (= 8.0.0)
+    - FBSDKCoreKit/Core (= 8.0.0)
+  - FBSDKCoreKit/Basics (8.0.0)
+  - FBSDKCoreKit/Core (8.0.0):
+    - FBSDKCoreKit/Basics
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - facebook_sdk_flutter (from `.symlinks/plugins/facebook_sdk_flutter/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - FBSDKCoreKit
+
+EXTERNAL SOURCES:
+  facebook_sdk_flutter:
+    :path: ".symlinks/plugins/facebook_sdk_flutter/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  facebook_sdk_flutter: c4f9ba81759551fadc7904aa10090c91034ba358
+  FBSDKCoreKit: 9d27fe97a2fa2abe5eeefea8240e837623ab88e0
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.1
