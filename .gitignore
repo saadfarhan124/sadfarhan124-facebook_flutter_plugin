@@ -3,5 +3,7 @@
 
 .packages
 .pub/
-
+pubspec.lock
 build/
+doc/api/
+example/pubspec.lock
